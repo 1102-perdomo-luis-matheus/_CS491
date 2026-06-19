@@ -1,1 +1,8 @@
-theme: minima
+title: CS491 Blog
+description: Full Stack Development Blog
+remote_theme: tajacks/lightspeed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate-v2

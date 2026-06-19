@@ -1,15 +1,16 @@
-<html>
-<head>
-    <title>CS491 Page</title>
-</head>
-<body>
-    <h1>Welcome to CS491 Page</h1>
-    <button onClick = "navigate()">Go to Blog Dashboard</button>
+---
+layout: default
+title: CS491 Page
+---
+    <header>
+        <h1>Welcome to CS491 Page</h1>
+    </header>
+    <p>
+        This is the home page for my CS491 GitHub Pages website.
+    </p>
+    <button onclick="navigate()">Go to Blog Dashboard</button>
     <script>
         function navigate() {
-            window.location.href = "blog_dashboard.html";
+            window.location.href = "{{ site.baseurl }}/blog_dashboard.html";
         }
     </script>
-
-</body>
-</html>
