@@ -13,7 +13,14 @@
         Content Delivery Application (CDA): Part of the two main components of CMS. CDA is the backend interface through which the content is delivered to the end user. It handles the storage, retrieval, and delivery of content, 
         ensuring that the content created and managed via the CMA is properly presented to the audience. Is the part of the CMA that handles the compilation of the website contents and its updates.
     </p>
-    <button onClick = "navigate()">Click Me</button>
+    <button onClick = "navigateToBlogDashboard()">Go to Blog Dashboard</button>
+    <script>
+        function navigateToBlogDashboard() {
+            window.location.href = "blog_dashboard.html";
+        }
+    </script>
+    
+    <button onClick = "navigate()">Go to Full Stack Development page</button>
     <script>
         function navigate() {
             window.location.href = "full_stack_development.html";

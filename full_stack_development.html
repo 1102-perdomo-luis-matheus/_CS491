@@ -51,7 +51,14 @@
         Testing also serves as documentation for the expected behavior of function or on this case of the attributes of the ORM models, ensuring that any changes to the code do not break existing functionality.
         It also could prevent us from making wrong assumptions about the behavior of the code.
     </p>
-    <button onClick = "navigateToCMS()">Click Me</button>
+
+    <button onClick = "navigateToBlogDashboard()">Go to Blog Dashboard</button>
+    <script>
+        function navigateToBlogDashboard() {
+            window.location.href = "blog_dashboard.html";
+        }
+    </script>
+        <button onClick = "navigateToCMS()">Go to CMS page</button>
     <script>
         function navigateToCMS() {
             window.location.href = "CMS-Jekyll.html";
