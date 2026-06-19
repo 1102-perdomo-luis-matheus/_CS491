@@ -51,7 +51,20 @@
         Testing also serves as documentation for the expected behavior of function or on this case of the attributes of the ORM models, ensuring that any changes to the code do not break existing functionality.
         It also could prevent us from making wrong assumptions about the behavior of the code.
     </p>
-
+    <h2>Building the database</h2>
+    <p>
+        Although optional, many full stack applications require a database. Building the database is a crucial step in full stack development. It involves designing the database schema, creating tables, defining relationships, and ensuring data integrity.
+    </p>
+    <h2>ORM (Object-Relational Mapping)</h2>
+    <p>
+        You can, at this step, use an existing ORM library such as SQLAlchemy for python, or build your own ORM. Regardless of which you choose, at this step we define the database tables in a way that allows us to interact with the database using objects 
+        and manipulate the data in the database using objects instead of writing raw SQL queries.
+    </p>
+    <h2>Service Logic</h2>
+    <p>
+        The service logic layer is responsible for implementing the core functionality of the application. It handles the business rules, processes user inputs, interacts with the database through the ORM, and ensures that the application behaves as expected.
+        For instance: handling user authentication, handling updates to user profiles or processing other users requests based on business rules.
+    </p>
     <button onClick = "navigateToBlogDashboard()">Go to Blog Dashboard</button>
     <script>
         function navigateToBlogDashboard() {
